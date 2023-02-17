@@ -1,5 +1,4 @@
 #include <shdio.h>
-
 /**
  * main - Entry Point
  *
