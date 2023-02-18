@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- * main - all alphabets in lowercase except q and e
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char lc, e, q;
@@ -17,10 +16,9 @@ int main(void)
 
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-	if (lc != e && lc != q)
-	putchar(lc);
+		if (lc != e && lc != q)
+		putchar(lc);
 	}
-	putchar('\n');
+	puthar('\n');
 	return (0);
 }
-
