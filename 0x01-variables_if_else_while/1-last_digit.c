@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - print last digit
  *
  * Return: Always 0 (Success)
  */
@@ -13,6 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	a = n % 10;
 
 	if (a > 5)
 	{
