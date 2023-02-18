@@ -3,10 +3,11 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - all alphabets except q and e
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char lc, e, q;
@@ -19,6 +20,6 @@ int main(void)
 		if (lc != e && lc != q)
 		putchar(lc);
 	}
-	puthar('\n');
+	putchar('\n');
 	return (0);
 }
