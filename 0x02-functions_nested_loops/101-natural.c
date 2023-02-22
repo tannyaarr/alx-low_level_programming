@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i, z = 0;
