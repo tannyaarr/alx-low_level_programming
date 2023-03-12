@@ -3,8 +3,8 @@
 
 /**
  * main - Prints its name
- * @agrc: argument count
- * @agrv: argument vector
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: Always 0 (Success)
  */
