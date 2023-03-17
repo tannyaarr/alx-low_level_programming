@@ -41,7 +41,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			c++;
 		}
 		b++;
-	 }
+	}
 	str[b] = '\0';
 	return (str);
 }
