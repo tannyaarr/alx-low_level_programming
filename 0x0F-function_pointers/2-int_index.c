@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * int_index - returns for index of first element
- * @size: size of elements
- * @cmp: pointer to function
+ * int_index - returns index place if comparison = true, else -1
+ * @size: size of elements in array
+ * @cmp: pointer to func of one of the 3 in main
  * @array: array
  * Return: 0
  */
@@ -17,7 +17,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 		return (-1);
 	for (a = 0; a < size; a++)
 	{
-		(cmp(array[a]));
+		if (cmp(array[a]))
 		return (a);
 	}
 	return (-1);
