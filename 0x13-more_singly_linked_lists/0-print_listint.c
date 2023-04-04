@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print listint -  prints all elements of a linked list
+ * print_listint -  prints all elements of a linked list
  * @h:  linked list of type  listint_t to print
  * Return: the number of nodes
  */
