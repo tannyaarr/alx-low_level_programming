@@ -4,7 +4,7 @@
 /**
  * delete_nodeint_at_index - deletes the node at index of 
  * a listint_t linked list
- * @index: the index of the node that should be deleted
+ * @index: index of the node that to  delete
  * @head: pointer to the first element in the list
  * Return: 1 if it succeded, -1 if it failed
  */
@@ -26,7 +26,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
 	while (a < index - 1)
 	{
-		if (!temp || !(temp->next))
+		if (!temp || !temp->next)
 			return (-1);
 		temp = temp->next;
 		a++;
