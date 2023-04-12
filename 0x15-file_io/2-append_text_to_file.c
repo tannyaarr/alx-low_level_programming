@@ -3,8 +3,8 @@
 
 /**
  * append_text_to_file - appends text at the end of a file
- * @filename: a pointer to the name of the file
- * @text_content: The string to add to the end of the file
+ * @filename: filename
+ * @text_content: added content
  *
  * Return 1 if the file exists, -1 if the files does not exits
  * or if you do not have required permissions to write the file
@@ -35,6 +35,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		if (w == -1)
 		return (-1);
 	}
+
 	close(fd);
 
 	return (1);
