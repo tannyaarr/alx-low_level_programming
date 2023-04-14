@@ -9,6 +9,7 @@ void close_file(int fd);
  * @file: the name of the file buffer is storing char for
  * Retuen: A pointer to the newly-allocated buffer
  */
+
 char *create_buffer(char *file)
 {
 	char *buffer;
