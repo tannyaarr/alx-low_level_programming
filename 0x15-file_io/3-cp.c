@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 char *create_buffer(char *file);
 void close_file(int fd);
 
@@ -27,7 +28,7 @@ char *create_buffer(char *file)
 
 /**
  * close_file - closes file descriptors
- * @fd: The file descriptors to be closed
+ * @fd: The file descriptor to be closed
  */
 
 void close_file(int fd)
@@ -46,7 +47,7 @@ void close_file(int fd)
 /**
  * main - copies the contents of a file to another file
  * @argc: The number of arguments suppiled to the program
- * @argv: An array of pointers to the argument
+ * @argv: An array of pointers to the arguments
  * Return: 0 on Success
  *
  * Description: if the argument count is incorrect - exit code 97.
