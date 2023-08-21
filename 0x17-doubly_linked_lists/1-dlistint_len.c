@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * dlistint_len - returns the number of elements in a 
+ * dlistint_len - returns the number of elements in a
  * dlistint_t linked list
- * @:pointer to the head of the list
+ * @h:pointer to the head of the list
  * Return: the number of elements
  */
 
