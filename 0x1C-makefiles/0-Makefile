@@ -1,0 +1,6 @@
+# Makefile for building the 'school' exectuable
+
+all: school
+
+school: main.c functions.c
+	gcc -o school main.c functions.c
