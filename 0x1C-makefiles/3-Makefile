@@ -13,9 +13,6 @@ RM = rm -f
 all: $(OBJ)
 	$(CC) -o $(NAME) $(OBJ)
 
-%.o: %.c
-	$(CC) -o $< -o $@
-
 clean:
 	$(RM) *~ $(NAME)
 
